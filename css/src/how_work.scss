@@ -1,0 +1,52 @@
+#how_work {
+	
+	.img-container{
+		padding: 0;
+	}
+
+	h2{
+		font-size: 1.1em;
+		font-weight: bold;
+		text-transform: uppercase;
+		text-align: center;
+		margin-top: 3em;
+	}
+
+	p.details{
+		font-size: 1.1em;
+		margin: 2em 0;
+	}
+	
+}
+
+#how_work_action {
+	background-image: url('../images/forest2.jpg');
+	background-size: cover;
+	background-position: 50% 0;
+	text-align: center;
+	padding-top: 15vh;
+	color: #FFF;
+
+	.action-container{
+		background-color: rgba(135, 36, 205, 0.7);
+		padding: 10vh 0 15vh;
+	}
+
+	a{
+		background-color: #286090;
+	    border-radius: 3em;
+	    padding: 0.8em 4em;
+	    color: #f5f5f5;
+	    font-weight: bold;
+	    text-decoration: none;
+	    margin-bottom: 2em;
+	}
+
+	p{
+		margin-bottom: 2em;
+	}
+
+	.meta-info{
+		margin: 2em;
+	}
+}
