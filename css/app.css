@@ -32,23 +32,20 @@ body {
 
 header nav.navbar {
   margin-bottom: 0;
-  background-color: transparent;
+  background-color: rgbA(0, 0, 0, 0.4);
   border-width: 0 0 1px 0;
-  border-color: transparent; }
+  border-color: transparent;
+  height: 65px;
+  padding-top: 12px; }
   header nav.navbar a.navbar-brand {
     color: rgba(236, 43, 95, 0.99);
     text-decoration: none;
     font-weight: bold;
-    font-size: 2em; }
+    font-size: 25px; }
   header nav.navbar.navbar-default .navbar-nav > li > a, header nav.navbar.navbar-default .navbar-nav > li > a:hover, header nav.navbar.navbar-default .navbar-nav > li > a:visited, header nav.navbar.navbar-default .navbar-nav > li > a:link {
     color: #FFF; }
   header nav.navbar.navbar-default .navbar-nav > li > a:hover {
     border-bottom: 3px solid #FFF; }
-  header nav.navbar .navbar-nav {
-    border: none;
-    background-color: rgbA(0, 0, 0, 0.6);
-    /* height: 259px; */
-    text-align: center; }
 
 #contents {
   background-color: #332542;
@@ -93,6 +90,9 @@ header nav.navbar {
     background-color: #a94442;
     opacity: 0.8; }
 
+@media screen and (max-width: 480px) {
+  #about {
+    height: 320px; } }
 #how_work .img-container {
   padding: 0; }
 #how_work h2 {
